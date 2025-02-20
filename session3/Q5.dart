@@ -14,6 +14,7 @@ void main() {
   print(animal2.kind);
   animal1.eat();
   animal1.walking();
+  
 }
 
 class animal {
