@@ -42,9 +42,5 @@ class Inventory {
     return products.where((product) => product.category == category).toList();
   }
 
-  List<Product> filterByType(Type productType) {
-    return products
-        .where((product) => product.runtimeType == productType)
-        .toList();
-  }
+  
 }
